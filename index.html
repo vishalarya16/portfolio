@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/62df35a1e5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/vishallogo.png.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" style="color: #e7ebf3;" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" style="color: #d6d8dc;" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphic Designer</p>
+                <h1>Hi, i am <span>Vishal</span> <br> kumar from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/vishaluser.jpg.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Meet Vishal, a talented graphic designer and video editor with a passion for creating stunning visuals that capture the essence of any brand or message. With years of experience under his belt, Vishal has established himself as a go-to creative expert in the industry.
+
+                        Vishal's unique blend of creativity, technical expertise, and strategic thinking enables him to craft visually compelling designs that leave a lasting impression on audiences. From designing logos, brochures, and websites to editing videos, Vishal has an impressive track record of delivering high-quality work that exceeds client expectations.
+                        
+                        Whether you are looking to revamp your branding or create a stunning video that tells your story, Vishal has the skills and expertise to bring your vision to life. With a keen eye for detail and a passion for innovation, he is committed to delivering work that not only looks great but also achieves tangible results.
+                        
+                        So if you are looking for a talented graphic designer and video editor who can help take your brand to the next level, look no further than Vishal. Contact him today to discuss your project and see how he can help bring your vision to life.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>Graphic Design</span><br> Designing graphic from scratch to advance.</li>
+                            <li><span>UI/UX</span> <br> Designing web/App interfaces</li>
+                            <li><span>video editing</span> <br> Have knowledge about tools like premiere pro, aftereffects, da-vinci resolve,etc</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience" >
+                        <ul>
+                            <li><span>2023-current</span><br>working as a graphic designer locally and remotely.</li>
+                            <li><span>Internship 2022-2023</span> <br> Worked as an intern in a startup</li>
+                            <li><span>premiere pro</span> <br> Have advance knowledge about these kind of software.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bsc in physics(2022-2025)</span><br>Currently pursuing bachelor of physics in M.L.S.M, Darbhanga.</li>
+                            <li><span>Intermediate(2020-2022)</span> <br> Passed intermediate examination in 2020</li>
+                            <li><span>Matriculation(2020)</span> <br>Passed Matriculation examination. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- -----------------------------services---------- -->
+  <div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code" style="color: #dae1ec;"></i>
+                <h2>Graphic Designing</h2>
+                <p>From logos to websites, I create stunning visuals that captivate audiences and elevate brands with a unique blend of creativity and strategy.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-palette" style="color: #dae1ec;"></i>
+                <h2>UI/UX Desinger</h2>
+                <p>I craft intuitive interfaces and delightful user experiences that elevate your digital products and connect you with your customers.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-linux" style="color: #dae1ec;"></i>
+                <h2>video Editor</h2>
+                <p>I bring your stories to life with seamless edits, dynamic transitions, and expert sound design that engage and captivate your audience.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- --------------------------------------Protfolio---------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>graphic designs</h3>
+                    <p>I can make these kinds of graphic designs.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #012cea;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Ui/Ux </h3>
+                    <p>I can make Ui like most of the popular apps and webapps</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #012cea;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Video editing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos?</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #012cea;"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+  </div>
+    <!-- --------------------------------------contact----------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fa-regular fa-envelope" style="color: #f72222;"></i><a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=vk381148@gmail.com&tf=1" target="_blank" rel="noopener noreferrer">vk381148@gmail.com</a></p>
+                        <p><i class="fa-solid fa-phone" style="color: #7be641;"></i>9386049607</p>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/vishal_arya16" target="_blank"><i class="fa-brands fa-instagram" style="color: #E4405F;"></i></a>
+                            <a href="https://t.me/vishal_arya16" target="_blank"><i class="fa-brands fa-telegram" style="color: #1765ee;"></i></a>
+                            
+                        </div>
+                        <a href="images/Motivated_data_entry_specialist_with_over_a_year_of_experience_accurately.pdf" download class="btn btn2">Download cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" id=""  rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Made by Harsh with <i class="fa-solid fa-heart" style="color: #f2070f;"></i></p>
+            </div>
+        </div>
+<script>
+   var sidemeu = document.getElementById("sidemenu");
+function openmenu(){
+  sidemeu.style.right = "0";
+}
+function closemenu(){
+    sidemeu.style.right = "-200px"
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz3GtVyBylxEw_aQKdf-gkxfmNL9j57UbhuO0npR0dZaR57ylkhNYbz6zTMPmvRDcKa/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
